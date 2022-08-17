@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    border-radius: 10px;
+    background-color: #12192c;
+}
+head{
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    background: #1ce0e0 ;
+}
+
+h1{
+    font-family: cursive;
+    font-size: 40px;
+    color: rgb(0, 166, 255);
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-bottom: 5%;
+    margin-right: 15%;
+    /* background-color: black; */
+    border: none;
+    border-radius: 10px;
+}
+
+p{
+    font-size: 20px;
+}
+
+.box{
+    display: block;
+    float: left;
+    width: 20%;
+    padding: 10px;
+    padding-left: 12px;
+    /* overflow: hidden; */
+}
+
+main{
+    margin-left: 120px;
+    background: #1ce0e0 ;
+}
+img{ margin-top: 10px; 
+    size: 100vh;
+    width: 100%;
+    border-radius: 13px;
+}
+
+img:hover{
+    transform: scale(2,2);
+    transition: .3s ease;
+
+    /* if you waant tto zzoom in (1,1) to (2,2) */
+}
+
+
+
+/* thiis is naav bar  */
+
+.menu
+{
+    width: 100%;
+    height: 10vh;
+    background: rgba(0,0,0,0.2);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: capitalize; 
+    width: 100%;
+    display: flex;
+    justify-content: space-around;   
+
+}
+
+.menu a
+{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+nav .menu a:hover{
+    color: #f40505;
+    transition: all 0.50s ease;
+}
+.menu a:nth-child(2){
+    color: #f40505;
+}
+
+/* tthis end oof nav bar  */

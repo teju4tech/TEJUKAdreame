@@ -9,15 +9,17 @@
 .about{
     width: 100%;
     padding: 78px 0px;
-    background-color: #c8d8e1;
+    background-color:#77acf1;
 }
 
 .about img{
-     height: auto;
-     width: 420px;
-     border-radius: 200px;
+     height: 350px;
+     width: 450px;
+     border-radius: 10px;
      border-width: 10px;
      border-color: #f9004d;
+     margin-right: 30px;
+     margin-top: 50px;
 }
 
 .about about-text{
@@ -34,10 +36,15 @@
 }
 
 .about-text h1{
-    color: cornflowerblue;
+    color: #262d3a;
     font-size: 80px;
     text-transform: capitalize;
-    margin-bottom: 20px;
+    margin-top: -10px;
+    margin-bottom: 50px;
+    text-align: center;
+    border: none;
+    border-bottom: 5px solid rgb(240, 13, 13);
+    border-radius: 5px;
 }
 
 .about-text h2{
@@ -59,16 +66,18 @@ span{
 }
 
 .about-text p{
-    color: blue;
+    color: rgb(7, 7, 8);
     letter-spacing: 1px;
     line-height: 28px;
     font-size: 18px;
     margin-bottom: 45px;
 }
-button{
+button a{
     background: #f9004d;
     color: black;
     text-decoration: none;
+    font-size: 17px;
+    font-family: cursive , -apple-system,  'Segoe UI';
     border: 2px solid transparent;
     font-weight: bold;
     padding: 13px 30px;
@@ -76,8 +85,46 @@ button{
     transition: .4s;
 }
 
-button:hover{
-    background: transparent; 
+button a:hover{
+    background: #77acf1; 
     border: 2px solid  #f9004d;
     cursor: pointer;
 }
+
+
+
+/* thiis is naav bar  */
+
+.menu
+{
+    width: 100%;
+    height: 10vh;
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: capitalize; 
+    width: 100%;
+    display: flex;
+    justify-content: space-around;   
+
+}
+
+.menu a
+{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+.menu a:nth-child(3){
+    color: #f40505;
+}
+nav .menu a:hover{
+    color: #f40505;
+    transition: all 0.50s ease;
+}
+
+/* tthis end oof nav bar  */

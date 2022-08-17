@@ -15,7 +15,7 @@
     min-height: 100vh;
     padding: 50px 50px;
     display: flex;
-    background-image: url('raamu.jpg');
+    background-image: url('/IMAGE/jaanu.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     justify-content: center;
@@ -25,19 +25,21 @@
 }
 
 .contact .content{
-    max-width: 800px;
+    height: 30vh;
+    width: 100vh;
     text-align: center;
     background: rgb(224, 211, 27);
-    border-radius: 35px;
+    border-radius: 10px;
 }
 
 
 
 .contact .content h2{
     font-size: 50px;
-    font-weight: 500;
+    font-weight: 900;
     background: transparent;
-    color: #fff;
+    color: white;
+    font-family: cursive , Ubuntu;
 
 } 
 
@@ -87,13 +89,15 @@
 .container .contactInfo .box .text{
     display: flex;
     margin-left: 20px;
+    font-size: 17px;
+    font-family: cursive,Ubontu;
     flex-direction: column;
     font-weight: 300;
 }
 
 .container .contactInfo .box .text h3{
     font-weight: 500;
-    color: #00bcd4;
+    color: black;
 }
 
 .contactForm{
@@ -147,12 +151,74 @@
 }
 .contactForm .inputBox  input[type="submit"]
 {
-    width: 100px;
-    background: black;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-    padding: 10px;
-    font-size: 18px;
+    border: 2px solid #f7320a;
+    list-style: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    width: 160px;
+    text-align: center;
+    text-transform: capitalize;
+    margin: 15px 0; 
 }
 
+
+.contactForm .inputBox  input:hover{
+    margin: 15px 0;
+}
+.contactForm .inputBox  input:hover{
+    border: 2px solid #f7320a;
+    list-style: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    width: 160px;
+    text-align: center;
+    cursor: pointer;
+}
+.contactForm .inputBox  input:hover{
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+}
+.contactForm .inputBox  input:hover{
+    border-color: 5px solid red ;
+    background-color: transparent;
+}
+
+
+
+
+
+/* thiis is naav bar  */
+
+.menu
+{
+    width: 100%;
+    height: 10vh;
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: capitalize; 
+    width: 100%;
+    display: flex;
+    justify-content: space-around;   
+
+}
+
+.menu a
+{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: cursive;
+}
+nav .menu a:hover{
+    color: #f40505;
+    transition: all 0.50s ease;
+}
+.menu a:nth-child(4){
+    color: #f40505;
+}
+
+/* tthis end oof nav  */
